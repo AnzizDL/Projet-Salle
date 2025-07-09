@@ -1,0 +1,42 @@
+.logo {
+  width: 200px;
+  display: block;
+  display: left;
+}
+
+nav {
+  background-color: #151f60;
+  padding: 10px;
+  text-align: center;
+  gap: 200px;
+}
+table {
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 120px;
+  width: 80%;
+}
+td,
+th {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+footer {
+  background-color: #050b33;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: #050b33;
+}

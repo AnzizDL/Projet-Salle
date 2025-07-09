@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Fitness City</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="Assets/CSS/inscription.css">
+</head>
+
+<nav>
+    <ul>
+        <img src="Assets/Logo Fitness City.png" class="logo" alt="Logo Fitness City">
+        <li><a href="index.html">Acceuil</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+        <li><a href="planning.html">Planning</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+    </ul>
+</nav>
+
+<body>
+    <div class="form-container">
+        <form action="#" method="POST">
+            <h1>Inscription à Fitness City</h1>
+
+            <div class="form-group">
+                <label for="prenom">Prénom:</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Mot de passe:</label>
+                <input type="password" id="password" name="password" required minlength="6">
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirmer le mot de passe:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Téléphone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="membership">Type d'abonnement:</label>
+                <select id="membership" name="membership" required>
+                    <option value="">Choisissez votre abonnement</option>
+                    <option value="basic">Basic - 2999€/mois</option>
+                    <option value="premium">Premium - 4999€/mois</option>
+                    <option value="vip">VIP - 7999€/mois</option>
+                </select>
+            </div>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </div>
+</body>
+<footer>
+    <h2>Coordonnées</h2>
+    <p>Adresse: 1007 Mountain Drive, Gotham City</p>
+    <p>Email: fitness-city@gmail.com</p>
+    <p>Téléphone: 212-555-418</p>
+    <h5>Réseaux sociaux</h5>
+    <li><a href="https://www.facebook.com/fitnesscitygotham">Facebook</a></li>
+    <li><a href="https://www.instagram.com/fitnesscitygotham">Instagram</a></li>
+    <li><a href="https://www.twitter.com/fitnesscitygotham">Twitter</a></li>
+</footer>
+
+</html>
