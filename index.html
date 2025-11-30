@@ -4,29 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salle de sport Fitness City Gotham test</title>
+    <title>Fitness City Gotham - Salle de Sport de Luxe</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
+    <script src="Assets/JS/main.js" defer></script>
 </head>
-<div></div>
+
+<body>
 <nav>
     <ul>
-    <img src="Assets/images/Logo Fitness City.png" class="logo" alt="Logo Fitness City">
-        <li><a href="index.html">Acceuil</a></li>
+        <li class="logo-item"><img src="Assets/images/Logo Fitness City.png" class="logo" alt="Logo Fitness City"></li>
+        <li><a href="index.html">Accueil</a></li>
         <li><a href="inscription.html">Inscription</a></li>
         <li><a href="planning.html">Planning</a></li>
         <li><a href="galerie.html">Galerie</a></li>
     </ul>
-    </div>
 </nav>
-
-<body>
     <header>
-        <h1>Bienvenue dans le gros crane à Nayel noix de coco test</h1>
-    <img src="Assets/images/American-Copper-Gym-Luxe.webp" alt="Fitness City Gotham" class="photo">
-        <h3>Chez Fitness City élevez votre force dans l’ombre du luxe</h3>
-        <p>À l’abri du bruit loin des regards vous trouverez l’excellence la rigueur et la paix
-            Un luxe discret un entraînement exigeant
+        <h1>Fitness City Gotham</h1>
+        <p class="tagline">Élevez votre force dans l'ombre du luxe</p>
+        <img src="Assets/images/American-Copper-Gym-Luxe.webp" alt="Fitness City Gotham" class="hero-image">
+        <div class="hero-text">
+            <h2>Un luxe discret, un entraînement exigeant</h2>
+            <p>À l'abri du bruit, loin des regards, vous trouverez l'excellence, la rigueur et la paix.<br>
             Bienvenue dans votre refuge au cœur du chaos : Fitness City, Gotham</p>
+        </div>
     </header>
     <section>
         <h2>Nos Services</h2>
@@ -38,39 +39,65 @@
             <li>Coachs professionnels</li>
         </ul>
     </section>
-    <section>
-        <h2>Nos avantages</h2>
-        <ul>
-            <li>Discretion absolue</li>
-            <li>Equipements haut de gamme</li>
-            <li>Accés flexible 24h/24H/7J</li>
-            <li>Lieu sous haute surveillance et trés bien sécurisé </li>
-        </ul>
+    <section class="advantages">
+        <h2>Nos Avantages</h2>
+        <div class="advantages-grid">
+            <div class="advantage-card">
+                <h3>🔒</h3>
+                <h4>Discrétion Absolue</h4>
+                <p>Votre vie privée est notre priorité</p>
+            </div>
+            <div class="advantage-card">
+                <h3>⚡</h3>
+                <h4>Équipements Haut de Gamme</h4>
+                <p>Matériel de dernière génération</p>
+            </div>
+            <div class="advantage-card">
+                <h3>🕐</h3>
+                <h4>Accès Flexible 24/7</h4>
+                <p>Disponible quand vous l'êtes</p>
+            </div>
+            <div class="advantage-card">
+                <h3>🛡️</h3>
+                <h4>Sécurité Maximale</h4>
+                <p>Surveillance haute technologie</p>
+            </div>
+        </div>
     </section>
-    <section>
-        <h2>Nos installations</h2>
+    <section class="installations">
+        <h2>Nos Installations</h2>
         <p>Découvrez nos installations de luxe, conçues pour vous offrir une expérience de fitness inégalée.</p>
+        <div class="installations-grid">
+            <img src="Assets/images/NYGyms_LandmarkPinnacle.jpg" alt="Salle de musculation" class="installation-photo">
+            <img src="Assets/images/pngtree-contemporary-fitness-and-gym-with-cityscape-and-skyline-in-3d-render-picture-image_3653484.jpg" alt="Espace cardio" class="installation-photo">
+            <img src="Assets/images/lusine-saint-lazare-15-credit-teddy-bob.jpg" alt="Zone d'entraînement" class="installation-photo">
+        </div>
     </section>
-    <img src="Assets/images/NYGyms_LandmarkPinnacle.jpg" alt="photo salle" class="photo">
-    <img src="Assets/images/pngtree-contemporary-fitness-and-gym-with-cityscape-and-skyline-in-3d-render-picture-image_3653484.jpg"
-        alt="photo salle" class="photo">
-    <img src="Assets/images/lusine-saint-lazare-15-credit-teddy-bob.jpg" alt="photo salle" class="photo">
-    <section>
+    <section class="cta">
         <h2>Rejoignez-nous</h2>
-        <button><a href="inscription.html">Inscrivez-vous maintenant</a></button>
+        <p>Commencez votre transformation dès aujourd'hui</p>
+        <a href="inscription.html" class="cta-button">Inscrivez-vous maintenant</a>
     </section>
-</body>
-<footer>
-    <h2>Coordonnées</h2>
-    <p>Adresse: 1007 Mountain Drive,Gotham City</p>
-    <p>Email: fitness-city@gmail.com</p>
-    <p>Téléphone: 212-555-418</p>
-    <h5>réseaux sociaux</h5>
 
-    <li><a href="https://www.facebook.com/fitnesscitygotham">Facebook</a></li>
-    <li><a href="https://www.instagram.com/fitnesscitygotham">Instagram</a></li>
-    <li><a href="https://www.twitter.com/fitnesscitygotham">Twitter</a></li>
-</footer>
-</div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Coordonnées</h2>
+                <p>📍 1007 Mountain Drive, Gotham City</p>
+                <p>📧 fitness-city@gmail.com</p>
+                <p>📞 212-555-418</p>
+            </div>
+            <div class="footer-section">
+                <h5>Réseaux Sociaux</h5>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/fitnesscitygotham" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/fitnesscitygotham" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.twitter.com/fitnesscitygotham" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Fitness City Gotham. Tous droits réservés.</p>
+    </footer>
+</body>
 
 </html>

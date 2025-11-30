@@ -4,28 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planning - Fitness City</title>
+    <title>Planning - Fitness City Gotham</title>
     <link rel="stylesheet" href="Assets/CSS/style.css">
     <link rel="stylesheet" href="Assets/CSS/planning.css">
+    <script src="Assets/JS/main.js" defer></script>
+    <script src="Assets/JS/planning.js" defer></script>
 </head>
-<header>
-    <nav>
-        <ul>
-            <img src="Assets/images/Logo Fitness City.png" class="logo" alt="Logo Fitness City">
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="inscription.html">Inscription</a></li>
-            <li><a href="planning.html">Planning</a></li>
-            <li><a href="galerie.html">Galerie</a></li>
-            </headder>
-        </ul>
-    </nav>
 
-    <body>
-        <h1>Planning des cours</h1>
+<body>
+<nav>
+    <ul>
+        <li class="logo-item"><img src="Assets/images/Logo Fitness City.png" class="logo" alt="Logo Fitness City"></li>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="inscription.html">Inscription</a></li>
+        <li><a href="planning.html">Planning</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+    </ul>
+</nav>on class="planning-header">
+        <h1>Planning des Cours</h1>
         <p>Consultez notre planning pour ne rien manquer de nos cours collectifs.</p>
         <p>Chez Fitness City, nous vous offrons un planning flexible et adapté à vos besoins.</p>
-        <p>Découvrez nos horaires de cours, les différents types d'entraînements et les coachs disponibles.</p>
-        <section>
+    </section>
+    
+    <section class="planning-table">
             <table>
                 <tr>
                     <th>Jour</th>
@@ -73,16 +74,26 @@
                 </tr>
             </table>
         </section>
-    </body>
+
     <footer>
-        <h2>Coordonnées</h2>
-        <p>Adresse: 1007 Mountain Drive, Gotham City</p>
-        <p>Email: fitness-city@gmail.com</p>
-        <p>Téléphone: 212-555-418</p>
-        <h5>Réseaux sociaux</h5>
-        <li><a href="https://www.facebook.com/fitnesscitygotham">Facebook</a></li>
-        <li><a href="https://www.instagram.com/fitnesscitygotham">Instagram</a></li>
-        <li><a href="https://www.twitter.com/fitnesscitygotham">Twitter</a></li>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h2>Coordonnées</h2>
+                <p>📍 1007 Mountain Drive, Gotham City</p>
+                <p>📧 fitness-city@gmail.com</p>
+                <p>📞 212-555-418</p>
+            </div>
+            <div class="footer-section">
+                <h5>Réseaux Sociaux</h5>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/fitnesscitygotham" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/fitnesscitygotham" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.twitter.com/fitnesscitygotham" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Fitness City Gotham. Tous droits réservés.</p>
     </footer>
+</body>
 
 </html>
